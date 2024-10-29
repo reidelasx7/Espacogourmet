@@ -1,0 +1,198 @@
+header{
+    background-color: gray;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+#navv{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#logonames{
+    height: 100px;
+    width: 100px;
+    margin-right: 600px;
+    margin-left: 50px;
+    contain: content;
+}
+
+#logonames img{
+    height: 100px;
+    width: auto;
+}
+
+/*#bloco-nav{
+    width: 500px;
+    height: 45px;
+    margin-left: 150px;
+}*/
+
+#logoname{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    padding-left: 4.0rem;
+
+}
+
+#bannersec{
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+#banner{
+   width: 100%;
+   height: auto; 
+}
+
+#sep1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+    background-color: rgb(116, 231, 49);
+    width: 280px;
+    height: 280px;
+    margin: 20px 10px 20px 10px;
+    contain: content;
+}
+
+/*
+#c-right,
+#c-left{
+    width: 300px;
+    height: 280px;
+    background-color: rgb(245, 229, 229);
+    margin-top: 15px;
+}*/
+
+.container img{
+    width: 300px;
+    height: auto;
+}
+
+#copyr{
+    background-color: rgb(107, 107, 107);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#sep2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#sobretxt{
+    height: 500px;
+    width: 550px;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 40px;
+    border-radius: 0 25px 25px 0;
+    background-color: aliceblue;
+    content: contain;
+}
+
+#sobretxt h6{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-justify: auto;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#sobretxt p{
+    text-align: left;
+    text-justify: auto;
+    margin-left: 40px;
+}
+
+#cafeteriaa{
+    height: 500px;
+    width: 600px;
+    contain: content;
+}
+
+#cafeteriaa img{
+    width: 100%;
+    height: auto;
+}
+
+#Contato{
+    background-color: lightgray;
+    padding: 15px 15px 15px 15px;
+}
+
+#contatos,
+#Contato h2{
+     text-align: center;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h2 {
+      font-size: 1.8rem;
+      /* Tamanho da fonte em telas pequenas */
+      /*letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+  
+    section input {
+      width: 17rem;
+      /* Largura total dos inputs em telas pequenas */
+    }
+  
+    section button {
+      padding: 0.6rem 1rem;
+      /* Espaçamento interno do botão em telas pequenas */
+      font-size: 0.9rem;
+      /* Tamanho da fonte do botão em telas pequenas */
+    }
+  
+    .resultados-pesquisa {
+      width: 90%;
+      /* Largura da caixa de resultados em telas pequenas */
+      height: 50vh;
+      /* Altura da caixa de resultados em telas pequenas */
+    }
+  
+    .item-resultado h2 {
+      font-size: 1.1rem;
+      /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+  
+    footer {
+      font-size: 0.9rem;
+      /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+  }
